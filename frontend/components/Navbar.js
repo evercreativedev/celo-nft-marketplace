@@ -7,7 +7,6 @@ export default function Navbar() {
     <div className={styles.navbar}>
       <Link href="/">Home</Link>
       <Link href="/create">Create Listing</Link>
-
       <ConnectButton />
     </div>
   );
